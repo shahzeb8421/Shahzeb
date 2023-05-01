@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hello Welcome to the Club</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            border: 0px solid blue;
+            width: 1000px;
+            background-color: wheat;
+            margin: 0 auto;
+        }
+
+        #header {
+            background-color: crimson;
+            color: white;
+            height: 100px;
+            padding: 12px 19px;
+            box-sizing: border-box;
+            width: 1000px;
+        }
+
+        #header .h1 {
+            padding: 40px 0 0 20px;
+        }
+
+        #menu {
+            background-color: sandybrown;
+        }
+
+        #menu ul {
+            margin: 0;
+        }
+
+        #menu li {
+            display: inline-block;
+        }
+
+        #menu li a {
+            display: block;
+            padding: 5px 13px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+         background: yellow;
+        }
+        #content {
+            background-color: white;
+            width: 800px;
+            min-height: 500px;
+            padding: 10px;
+            float: left;
+            box-sizing: border-box;
+        }
+
+        #sidebar {
+            background-color: lightsalmon;
+            width: 200px;
+            min-height: 500px;
+            float: right;
+        }
+
+        #sidebar a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #footer {
+            background-color: lawngreen;
+            padding: 5px 10px;
+            text-align: right;
+            clear: both;
+        }
+        @media screen and (max-width:1020px) {
+        #wrapper{
+width: 800px;
+        }
+        #content{
+width: 65%;
+        }
+        #sidebar{
+width: 34%;
+        }
+        @media screen and (max-width:810px) {
+        #wrapper{
+width: 500px;
+        }
+        @media screen and (max-width:510px) {
+        #wrapper{
+width: auto;
+        }
+        #content{
+            width: 100%;
+             float: none;   
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1> Hello Welcome to the Club
+            </h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Services</a></li>
+                <li> <a href="">Testemontials</a></li>
+                <li> <a href="">COntact Us</a></li>
+
+            </ul>
+
+        </div>
+        <div id="content">
+            <h1>About My Site</h1>
+            <p>At BestDataPoint, we are passionate about creating digital solutions that help our clients achieve their
+                business goals. With years of experience in web development, we have honed our skills and expertise to
+                deliver high-quality, custom websites, web applications, and e-commerce solutions. Our team of
+                developers and designers work closely with clients to understand their unique needs and develop tailored
+                solutions that exceed their expectations. We pride ourselves on delivering exceptional customer service,
+                with timely communication, transparency, and a commitment to delivering projects on time and within
+                budget. Let us help you take your business to the next level with our innovative and effective web
+                development services.
+
+                <br>
+                <br> we understand the importance of user interface (UI) and user experience (UX) design in creating
+                effective digital solutions. That's why our team includes experienced UI/UX designers who are dedicated
+                to crafting intuitive, visually appealing interfaces that optimize user engagement and satisfaction. Our
+                designers work closely with our development team to ensure that the user experience is seamless and
+                user-friendly, from the moment a user lands on your website or application. We believe that a great
+                UI/UX design can make all the difference in attracting and retaining users, and we are committed to
+                delivering the best possible design solutions to our clients
+            </p>
+        </div>
+        <div id="sidebar">
+            <li> <a href="https://www.facebook.com/"><img src="facebook-icon.png" alt="Facebook"></a> </li>
+            <li><a href="https://twitter.com/"><img src="twitter-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="instagram-icon.png" alt="Instagram"></a></li>
+
+        </div>
+        <div id="footer">
+            © Farjad First Site
+        </div>
+    </div>
+</body>
+
+</html>
